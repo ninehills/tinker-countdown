@@ -1,0 +1,16 @@
+[project]
+name = "tinker-countdown"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.4.2",
+    "matplotlib>=3.10.8",
+    "python-dotenv>=1.2.1",
+    "tinker>=0.7.0",
+    "tinker-cookbook",
+]
+
+[tool.uv.sources]
+tinker-cookbook = { git = "https://github.com/thinking-machines-lab/tinker-cookbook.git" }
